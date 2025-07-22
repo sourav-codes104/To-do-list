@@ -1,0 +1,155 @@
+.hamburger-menu {
+    height: 50px;
+
+}
+
+.Heading {
+    padding-top: 7px;
+    padding-left: 5px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.Sub-heading {
+    padding-left: 4px;
+    padding-top: 3px;
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.contents {
+
+    padding: 15px;
+}
+
+.contents-link {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    /* YEH LINE ADD KI HAI - items ko upar neeche karne ke liye */
+    justify-content: center;
+    /* Taki text box ke beech me dikhe */
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 15px;
+    /* Height ki jagah padding use ki hai */
+    width: 350px;
+    border-radius: 5px;
+    /* Thoda zyada radius for better look */
+    box-sizing: border-box;
+    /* Padding aur width ko aasan banata hai */
+    position: relative;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.sub-description {
+    font-weight: normal;
+    /* Isko normal weight kar diya */
+    color: #666;
+    /* Thoda halka color */
+    margin-top: 4px;
+    /* Title aur iske beech me space */
+}
+
+@media (min-width: 600px) {
+    .list-container {
+        width: 350px;
+        /* Desktop par width phir se 350px fix ho jayegi */
+    }
+}
+
+.color-box-1{
+    background-color: darkblue;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+   
+}
+.color-box-2{
+    background-color: orange;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+   
+}
+
+.color-box-3{
+    background-color:#E75480;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+.color-box-4{
+    background-color:brown;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+.color-box-5{
+    background-color:#1E90FF;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+
+}
+.color-box-6{
+    background-color:purple;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    align-self: flex-end;
+    
+}
+.color-box-7{
+    background-color:red;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    bottom: 24px;
+    right:15px;
+    border-radius: 4px;
+    
+    
+}
+
+.add{
+    position:absolute;
+    height: 30px;
+    width: 30px;
+    right:10px;
+    bottom:9px;
+    
+}
